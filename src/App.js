@@ -4,6 +4,7 @@ import FlexibileComponents from './features/flexibileComponents/flexibileCompone
 import ForDesigner from './features/forDesigner/forDesigner';
 import HomeView from './features/homeView/homeView';
 import NavigationView from './features/navigation/navigationView';
+import RightBusinessPlan from './features/rightBusinessPlan/rightBusinessPlan';
 import UIKitView from './features/uIKitView/uIKitView';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <FlexibileComponents />
       <FeatureHighlights />
       <ForDesigner />
+      <RightBusinessPlan />
     </>
   );
 }

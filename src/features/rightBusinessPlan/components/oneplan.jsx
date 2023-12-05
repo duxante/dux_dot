@@ -1,39 +1,49 @@
+import { CheckIcon, XIcon } from '../../../assets';
 import MainButton from '../../../components/mainButton/mainButton';
 import '../style/onePlan.style.css';
 
 const OnePlan = ({
   typeOfPlan,
-  planSubtitle,
   planCurrency,
   planPrice,
-  planDescription,
-  planDownloads,
-  planExtension,
-  planTutorials,
-  planForumSupport,
-  planUpdates,
+  activePlans,
+  inactivePlans,
+  planImg,
+  planImg1,
+  planImg2,
 }) => {
   return (
     <div className="onePlanHolder">
-      <h3>{typeOfPlan}</h3>
-      <p className="packageSubtitle">{planSubtitle}</p>
       <div className="packagePrice">
+        <h3>{typeOfPlan}</h3>
         <div className="justPrice">
           <p>{planCurrency}</p>
           <h1>{planPrice}</h1>
         </div>
-        <p>{planDescription}</p>
       </div>
-      <p className="underTheDescription">{planDownloads}</p>
-      <hr />
-      <p className="underTheDescription">{planExtension}</p>
-      <hr />
-      <p className="underTheDescription">{planTutorials}</p>
-      <hr />
-      <p className="underTheDescription">{planForumSupport}</p>
-      <hr />
-      <p className="lastInTheDescription">{planUpdates}</p>
-      <MainButton buttonText="Choose Plan" />
+      <div className="planImages">
+        {planImg}
+        {planImg1}
+        {planImg2}
+      </div>
+      <div className="plansOptions">
+        {activePlans.map((active) => {
+          return (
+            <p className="plansHolder">
+              <CheckIcon /> {active}
+            </p>
+          );
+        })}
+
+        {inactivePlans.map((inactive) => {
+          return (
+            <p className="plansHolder">
+              <XIcon /> {inactive}
+            </p>
+          );
+        })}
+      </div>
+      <MainButton customClass="planButton" buttonText="Choose Plan" />
     </div>
   );
 };

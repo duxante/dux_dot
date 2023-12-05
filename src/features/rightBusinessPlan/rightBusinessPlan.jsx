@@ -1,5 +1,6 @@
-import OnePlan from './components/oneplan';
-import './onePlan.style.css';
+import OnePlan from './components/onePlan';
+import { typeOfPlans } from '../../data/businessPlans';
+import './rightBusinessPlan.style.css';
 
 const RightBusinessPlan = () => {
   return (
@@ -16,16 +17,14 @@ const RightBusinessPlan = () => {
           {typeOfPlans.map((oneTypePlan) => {
             return (
               <OnePlan
+                planImg={oneTypePlan.planImg}
+                planImg1={oneTypePlan.planImg1}
+                planImg2={oneTypePlan.planImg2}
                 typeOfPlan={oneTypePlan.typeOfPackage}
-                planSubtitle={oneTypePlan.packageSubtitle}
-                planCurrency={oneTypePlan.packageCurrency}
-                planPrice={oneTypePlan.packagePrice}
-                planDescription={oneTypePlan.packageDescription}
-                planDownloads={oneTypePlan.packageDownloads}
-                planExtension={oneTypePlan.packageExtension}
-                planTutorials={oneTypePlan.tutorials}
-                planForumSupport={oneTypePlan.forumSupport}
-                planUpdates={oneTypePlan.updates}
+                planCurrency={oneTypePlan.planCurrency}
+                planPrice={oneTypePlan.planPrice}
+                activePlans={oneTypePlan.activePlans}
+                inactivePlans={oneTypePlan.inactivePlans}
               />
             );
           })}

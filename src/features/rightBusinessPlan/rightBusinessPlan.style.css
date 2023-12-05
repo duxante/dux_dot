@@ -1,0 +1,53 @@
+.rightPlanHolder{
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightPlanMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    width: 100%;
+    gap: 100px;
+    /* padding: 100px 0; */
+}
+
+.rightPlanUpper{
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.rightPlanUpper p{
+    color: grey;
+    font-weight: 500;
+    margin: 0px;
+    /* text-align: left; */
+}
+
+.rightPlanUpper h1{
+    color: #454F5B;
+    font-size: 56px;
+    margin: 0px;
+    text-align: center;
+}
+
+.rightPlanBottom{
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+

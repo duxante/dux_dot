@@ -24,6 +24,8 @@ import megaMenu from './megaMenu.png';
 import prebuiltWebistes from './prebuiltWebsites.png';
 import wellDocumented from './wellDocumented.png';
 import forDesigners from './forDesginers.png';
+import check from './check.png';
+import x from './x.png';
 
 export const SearchIcon = () => {
   return <img className="searchIcon" src={searchIcon} alt="search icon" />;
@@ -131,4 +133,12 @@ export const WellDocumented = () => {
 
 export const ForDesigners = () => {
   return <img className="forDesigners" src={forDesigners} alt="workspace" />;
+};
+
+export const CheckIcon = () => {
+  return <img className="checkIcon" src={check} alt="workspace" />;
+};
+
+export const XIcon = () => {
+  return <img className="xIcon" src={x} alt="workspace" />;
 };

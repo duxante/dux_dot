@@ -1,0 +1,84 @@
+.onePlanHolder img{
+    max-width: 30px;
+    width: 100%;
+}
+
+.plansHolder{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 300px;
+    width: 100%;
+    gap: 15px;
+}
+
+.plansOptions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+}
+
+.onePlanHolder{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.onePlanHolder:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.packagePrice{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.packagePrice h3{
+    color: #454f5b;
+    font-size: x-large;
+}
+
+.justPrice{
+    display: flex;
+    position: relative;
+    max-width: 100px;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+
+.justPrice p{
+    font-weight: bold;
+    color: #454f5b;
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.justPrice h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+    color: #454f5b;
+}
+
+.planImages{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    max-width: 200px;
+    width: 100%;
+    padding: 25px 0px 25px 25px;
+}
+
+.planButton{
+    margin: 50px;
+    padding: 15px;
+}
