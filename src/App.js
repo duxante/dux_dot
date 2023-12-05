@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import FeatureHighlights from './features/featureHighlights/featureHighlights';
+import FlexibileComponents from './features/flexibileComponents/flexibileComponents';
+import ForDesigner from './features/forDesigner/forDesigner';
+import HomeView from './features/homeView/homeView';
+import NavigationView from './features/navigation/navigationView';
+import UIKitView from './features/uIKitView/uIKitView';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavigationView />
+      <HomeView />
+      <UIKitView />
+      <FlexibileComponents />
+      <FeatureHighlights />
+      <ForDesigner />
+    </>
   );
 }
 

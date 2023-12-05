@@ -1,0 +1,10 @@
+.tabsHolder{
+    max-width: 800px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+

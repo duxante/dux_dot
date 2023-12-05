@@ -1,0 +1,97 @@
+.flexibileComponentsHolder{
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexibileComponentsMain{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.flexibileComponentsLeftSide{
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.flexibileComponentsLeftSide p{
+    color: grey;
+    font-weight: 500;
+    margin: 0px;
+    text-align: left;
+}
+
+.flexibileComponentsLeftSide h1{
+    color: #454F5B;
+    font-size: 56px;
+    margin: 0px;
+}
+
+.flexibileComponentsRightSide{
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.usersComponent{
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usersLeft{
+    gap: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sliderComponent{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardHolder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+.cardHolderRightSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 300px;
+    width: 100%;
+    gap: 20px;
+}
+
+.basicStuff{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 200px;
+    width: 100%;
+}

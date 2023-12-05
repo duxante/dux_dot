@@ -1,0 +1,25 @@
+.duxDotButton{
+    display: inline-block;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    padding: 7px 7px;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 17.5px;
+    border: 2px solid transparent;
+    border-color: #454F5B;
+    color: white;
+    background: #454F5B;
+    font-weight: 600;
+    transition: background-color .2s ease-in-out;
+    }
+
+.duxDotButton:hover{
+    background-color: #fa541f;
+    border-color: #fa541f;
+    color: black;
+    font-weight: 600;
+    }
+    

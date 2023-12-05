@@ -1,0 +1,47 @@
+.featureHighlightsHolder{
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.featureHighlightsMain{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.featureHighlightsLeftSide{
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.featureHighlightsLeftSide p{
+    color: grey;
+    font-weight: 500;
+    margin: 0px;
+    text-align: left;
+}
+
+.featureHighlightsLeftSide h1{
+    color: #454F5B;
+    font-size: 56px;
+    margin: 0px;
+}
+
+.featureHighlightsRightSide{
+    max-width: 800px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    justify-items: center;
+}

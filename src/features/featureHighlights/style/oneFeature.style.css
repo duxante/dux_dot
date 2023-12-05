@@ -1,0 +1,25 @@
+.oneFeatureHolder{
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.oneFeatureHolder img{
+    max-width: 50px;
+    width: 100%;
+    filter: grayscale(1);
+}
+
+.oneFeatureHolder img:hover{
+    filter: grayscale(0);
+    background-color: #fa541c;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.oneFeatureHolder p{
+    font-weight: bold;
+    text-align: center;
+}

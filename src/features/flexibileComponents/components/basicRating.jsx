@@ -1,0 +1,37 @@
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import Rating from '@mui/material/Rating';
+import Typography from '@mui/material/Typography';
+
+const BasicRating = () => {
+  const [value, setValue] = React.useState(0);
+
+  return (
+    <Box
+      sx={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        maxWidth: '200px',
+        width: '100%',
+        '& > legend': { mt: 2 },
+      }}
+    >
+      <Typography
+        sx={{ fontWeight: 'bold', marginTop: '0px !important' }}
+        component="legend"
+      >
+        Hover me
+      </Typography>
+      <Rating
+        name="simple-controlled"
+        value={value}
+        onChange={(event, newValue) => {
+          setValue(newValue);
+        }}
+      />
+    </Box>
+  );
+};
+
+export default BasicRating;
