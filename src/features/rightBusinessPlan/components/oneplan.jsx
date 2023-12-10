@@ -4,7 +4,6 @@ import '../style/onePlan.style.css';
 
 const OnePlan = ({
   typeOfPlan,
-  planCurrency,
   planPrice,
   activePlans,
   inactivePlans,
@@ -17,8 +16,7 @@ const OnePlan = ({
       <div className="packagePrice">
         <h3>{typeOfPlan}</h3>
         <div className="justPrice">
-          <p>{planCurrency}</p>
-          <h1>{planPrice}</h1>
+          <h1 className="currency">{planPrice}</h1>
         </div>
       </div>
       <div className="planImages">

@@ -3,7 +3,6 @@ import { FigmaIcon, JsIcon, TsIcon } from '../assets';
 export const typeOfPlans = [
   {
     typeOfPackage: 'STANDARD',
-    planCurrency: '$',
     planPrice: '59',
     planImg: <JsIcon />,
     activePlans: [
@@ -20,7 +19,6 @@ export const typeOfPlans = [
   },
   {
     typeOfPackage: 'PLUS',
-    planCurrency: '$',
     planPrice: '99',
     planImg: <JsIcon />,
     planImg1: <TsIcon />,
@@ -37,7 +35,6 @@ export const typeOfPlans = [
   },
   {
     typeOfPackage: 'EXTENDED',
-    planCurrency: '$',
     planPrice: '249',
     planImg: <JsIcon />,
     planImg1: <TsIcon />,

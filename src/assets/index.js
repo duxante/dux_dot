@@ -23,9 +23,11 @@ import googleFonts from './googleFonts.png';
 import megaMenu from './megaMenu.png';
 import prebuiltWebistes from './prebuiltWebsites.png';
 import wellDocumented from './wellDocumented.png';
-import forDesigners from './forDesginers.png';
+import forDesigners1 from './forDesigners1.png';
 import check from './check.png';
 import x from './x.png';
+import minimal_dash from './minimal_dashboard.png';
+import advertisement from './advertisement.png';
 
 export const SearchIcon = () => {
   return <img className="searchIcon" src={searchIcon} alt="search icon" />;
@@ -131,8 +133,8 @@ export const WellDocumented = () => {
   return <img className="wellDocumented" src={wellDocumented} alt="icon" />;
 };
 
-export const ForDesigners = () => {
-  return <img className="forDesigners" src={forDesigners} alt="workspace" />;
+export const ForDesigners1 = () => {
+  return <img className="forDesigners" src={forDesigners1} alt="workspace" />;
 };
 
 export const CheckIcon = () => {
@@ -141,4 +143,14 @@ export const CheckIcon = () => {
 
 export const XIcon = () => {
   return <img className="xIcon" src={x} alt="workspace" />;
+};
+
+export const MinimalDash = () => {
+  return <img className="minimal_dash" src={minimal_dash} alt="dashboard" />;
+};
+
+export const Advertisement = () => {
+  return (
+    <img className="advertisement" src={advertisement} alt="estonia coast" />
+  );
 };

@@ -29,3 +29,10 @@
   width: 100%;
 }
 
+.minimal_dash{
+  max-width: 900px;
+  width: 100%;
+  position: absolute;
+  bottom: -50px;
+}
+

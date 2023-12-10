@@ -1,0 +1,29 @@
+.duxDotHolder{
+    width: 100%;
+    margin: 100px auto;
+}
+
+.duxDotMain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameAndDot{
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nameAndDot p{
+    margin: 0;
+}
+
+.outro{
+    color: grey;
+    font-weight: 500;
+}

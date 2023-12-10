@@ -1,0 +1,49 @@
+.dashBoardTemplateHolder{
+    width: 100%;
+    margin: 300px auto;
+    display: flex;
+}
+
+.dashBoardTemplateMain{
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4f6f8;
+    margin: 0px auto;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.leftDashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 550px;
+    width: 100%;
+}
+
+.leftDashboard p{
+    color: grey;
+    font-weight: 500;
+    font-size: large;
+    padding: 20px 0;
+}
+
+.leftDashboard h1{
+    color: #454F5B;
+    font-size: 46px;
+    margin: 0px;
+}
+
+.rightDashboard{
+    max-width: 700px;
+    width: 100%;
+}
+
+.dashboardButton{
+    max-width: 250px;
+    width: 100%;
+}

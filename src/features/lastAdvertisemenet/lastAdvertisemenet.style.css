@@ -1,0 +1,69 @@
+.lastAdvertisementHolder{
+    width: 100%;
+    margin: 100px auto;
+}
+
+.lastAdvertisementMain{
+    width: 100%;
+    display: flex;
+}
+
+.lastAdvertisementBackground p{
+    color: #7f7f7f;
+    font-size: 80px;
+    font-weight: bolder;
+    margin: 0px;
+    text-align: center
+}
+
+.lastAdvertisementBackground h1{
+    color: white;
+    font-size: 80px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+}
+
+.lastAdvertisementBackground{
+    background-image: url("../../assets/advertisement.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 77vh;
+    position: relative;
+}
+
+.lastAdvertisementButton{
+    max-width: 250px;
+    width: 100%;
+    background-color: #fa541c;
+    color: white;
+}
+
+.lastAdvertisementOverlay{
+    background-color: #111416a1;;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.lastAdvertisementInnerHolder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.lastAdvertisementButton{
+    font-size: x-large;
+    padding: 15px 0px;
+    max-width: 200px;
+    width: 100%;
+}

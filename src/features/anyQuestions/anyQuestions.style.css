@@ -1,0 +1,36 @@
+.anyQuestionsHolder{
+    margin: 50px auto;
+    width: 100%;
+    display: flex;
+}
+
+.anyQuestionsMain{
+    max-width: 600px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 50px 0;
+}
+
+.anyQuestionsMain h1{
+    color: #454F5B;
+    font-size: 46px;
+    margin: 0px;
+}
+
+.anyQuestionsMain p{
+    color: grey;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+.anyQuestionButton{
+    max-width: 250px;
+    width: 100%;
+}
+
+
