@@ -3,6 +3,11 @@ import AvatarGroup from '@mui/material/AvatarGroup';
 import * as React from 'react';
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
+import avatar1 from '../../../assets/avatar1.png';
+import avatar2 from '../../../assets/avatar2.png';
+import avatar3 from '../../../assets/avatar3.png';
+import avatar4 from '../../../assets/avatar4.png';
+import avatar5 from '../../../assets/avatar5.png';
 
 const ImageAvatars = () => {
   return (
@@ -11,14 +16,14 @@ const ImageAvatars = () => {
         <Avatar
           sx={{ width: 56, height: 56 }}
           alt="Cindy Baker"
-          src="/static/images/avatar/3.jpg"
+          src={avatar5}
         />
       </Stack>
       <AvatarGroup total={24}>
-        <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-        <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
-        <Avatar alt="Agnes Walker" src="/static/images/avatar/4.jpg" />
-        <Avatar alt="Trevor Henderson" src="/static/images/avatar/5.jpg" />
+        <Avatar alt="Remy Sharp" src={avatar1} />
+        <Avatar alt="Travis Howard" src={avatar2} />
+        <Avatar alt="Agnes Walker" src={avatar3} />
+        <Avatar alt="Trevor Henderson" src={avatar4} />
       </AvatarGroup>
     </>
   );
