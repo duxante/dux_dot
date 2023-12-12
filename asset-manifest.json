@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dux_dot/static/css/main.5d50d9e8.css",
-    "main.js": "/dux_dot/static/js/main.a243850e.js",
+    "main.css": "/dux_dot/static/css/main.da834663.css",
+    "main.js": "/dux_dot/static/js/main.b382d590.js",
     "static/js/787.811863dc.chunk.js": "/dux_dot/static/js/787.811863dc.chunk.js",
     "static/media/advertisement.png": "/dux_dot/static/media/advertisement.21b8441fbe9f3d799f3c.png",
     "static/media/catBarker.png": "/dux_dot/static/media/catBarker.c5066a9b64a9832facf3.png",
@@ -10,10 +10,13 @@
     "static/media/newStart.png": "/dux_dot/static/media/newStart.759d9fc0165ed4dc1954.png",
     "static/media/forDesigners1.png": "/dux_dot/static/media/forDesigners1.fcdea8bdb28fb3dba312.png",
     "static/media/vercelIcon.png": "/dux_dot/static/media/vercelIcon.0ccddab07bb33d830609.png",
+    "static/media/avatar5.png": "/dux_dot/static/media/avatar5.77349eb5c7014b2d7109.png",
     "static/media/x.png": "/dux_dot/static/media/x.6d7c234cfeaa2ab03692.png",
     "static/media/awesomeAnimation.png": "/dux_dot/static/media/awesomeAnimation.bf9a49e5dd02bea832f5.png",
+    "static/media/avatar2.png": "/dux_dot/static/media/avatar2.2ec342dd8a8273ae45ca.png",
     "static/media/fastSupport.png": "/dux_dot/static/media/fastSupport.68c4ffb07d54a6d67fc9.png",
     "static/media/figmaDesign.png": "/dux_dot/static/media/figmaDesign.1c8e8b4c53ab7358f275.png",
+    "static/media/avatar3.png": "/dux_dot/static/media/avatar3.cba78c96a9b28e504306.png",
     "static/media/googleFonts.png": "/dux_dot/static/media/googleFonts.87e62a3b0efb164db4a3.png",
     "static/media/fullyResponsive.png": "/dux_dot/static/media/fullyResponsive.5170b3be2f0023712f4a.png",
     "static/media/darkMode.png": "/dux_dot/static/media/darkMode.4814a4cc53871a967f0e.png",
@@ -31,12 +34,12 @@
     "static/media/colorPresets.png": "/dux_dot/static/media/colorPresets.567071abab1d9d5ab171.png",
     "static/media/demoPage.png": "/dux_dot/static/media/demoPage.09b3f24ea4a989815eec.png",
     "index.html": "/dux_dot/index.html",
-    "main.5d50d9e8.css.map": "/dux_dot/static/css/main.5d50d9e8.css.map",
-    "main.a243850e.js.map": "/dux_dot/static/js/main.a243850e.js.map",
+    "main.da834663.css.map": "/dux_dot/static/css/main.da834663.css.map",
+    "main.b382d590.js.map": "/dux_dot/static/js/main.b382d590.js.map",
     "787.811863dc.chunk.js.map": "/dux_dot/static/js/787.811863dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d50d9e8.css",
-    "static/js/main.a243850e.js"
+    "static/css/main.da834663.css",
+    "static/js/main.b382d590.js"
   ]
 }
