@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dux_dot/static/css/main.0a528d25.css",
+    "main.css": "/dux_dot/static/css/main.5d50d9e8.css",
     "main.js": "/dux_dot/static/js/main.a243850e.js",
     "static/js/787.811863dc.chunk.js": "/dux_dot/static/js/787.811863dc.chunk.js",
     "static/media/advertisement.png": "/dux_dot/static/media/advertisement.21b8441fbe9f3d799f3c.png",
@@ -31,12 +31,12 @@
     "static/media/colorPresets.png": "/dux_dot/static/media/colorPresets.567071abab1d9d5ab171.png",
     "static/media/demoPage.png": "/dux_dot/static/media/demoPage.09b3f24ea4a989815eec.png",
     "index.html": "/dux_dot/index.html",
-    "main.0a528d25.css.map": "/dux_dot/static/css/main.0a528d25.css.map",
+    "main.5d50d9e8.css.map": "/dux_dot/static/css/main.5d50d9e8.css.map",
     "main.a243850e.js.map": "/dux_dot/static/js/main.a243850e.js.map",
     "787.811863dc.chunk.js.map": "/dux_dot/static/js/787.811863dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a528d25.css",
+    "static/css/main.5d50d9e8.css",
     "static/js/main.a243850e.js"
   ]
 }
