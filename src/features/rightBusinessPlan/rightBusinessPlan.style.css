@@ -14,7 +14,6 @@
     max-width: 1400px;
     width: 100%;
     gap: 100px;
-    /* padding: 100px 0; */
 }
 
 .rightPlanUpper{
@@ -31,7 +30,6 @@
     color: grey;
     font-weight: 500;
     margin: 0px;
-    /* text-align: left; */
 }
 
 .rightPlanUpper h1{
@@ -47,6 +45,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1450px) {
+    .rightPlanBottom{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .onePlanHolder{
+        max-width: 500px;
+    }
 }
 
 

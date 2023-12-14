@@ -95,3 +95,46 @@
     max-width: 200px;
     width: 100%;
 }
+
+@media screen and (max-width: 1450px) {
+    .flexibileComponentsMain{
+        margin: 0px auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .flexibileComponentsRightSide{
+        padding: 20px 0px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .flexibileComponentsLeftSide{
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .flexibileComponentsLeftSide{
+        text-align: center;
+    }
+    .flexibileComponentsLeftSide h1{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .usersComponent{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sliderComponent{
+        flex-direction: column;
+    }
+    .cardHolder{
+        flex-direction: column;
+        gap: 10px;
+    }
+}

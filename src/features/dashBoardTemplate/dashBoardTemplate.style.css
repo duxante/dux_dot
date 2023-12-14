@@ -48,6 +48,21 @@
     width: 100%;
 }
 
-/* @media screen and (max-width: 1720px) {
-    
-} */
+@media screen and (max-width: 1720px) {
+    .dashBoardTemplateMain{
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }   
+    .rightDashboard{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .minimal_dash{
+        position: relative;
+        margin: 0px auto;
+        margin-top: -50px;
+        bottom: 0;
+    }
+}

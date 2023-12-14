@@ -58,3 +58,46 @@
     width: 100%;
 }
 
+@media screen and (max-width: 1400px) {
+    .homeViewMain{
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 30px;
+    }
+    .homeViewLeft{
+        max-width: 800px;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .createYourWebTitle{
+        text-align: center;
+    }
+    .homeViewLeft p{
+        text-align: center;
+    }
+    .homeViewButton{
+        padding: 10px 10px;
+    }
+    .homeViewRight{
+        margin: 0px auto;
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .homeViewMain{
+        gap: 30px;
+    }
+    .homeViewLeft{
+        max-width: 500px;
+    }
+    .homeViewRight{
+        display: flex;
+        justify-content: center;
+    }
+    .homeHero{
+        width: 90%;
+    }
+}
+
