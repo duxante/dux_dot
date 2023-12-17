@@ -66,3 +66,21 @@
         bottom: 0;
     }
 }
+
+@media screen and (max-width:1450px) {
+    .leftDashboard{
+        max-width: 800px;
+        justify-content: center;
+        align-items: center;
+    }
+    .leftDashboard h1{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .leftDashboard p{
+        text-align: center;
+        width: 80%;
+    }   
+}

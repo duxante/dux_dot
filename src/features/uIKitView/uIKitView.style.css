@@ -45,4 +45,12 @@
         max-width: 80%;
         margin: 0px auto;
     }
+    .uIKitMain h1{
+        text-align: center;
+    }
+    .uIKitMain p{
+        max-width: 400px;
+        width: 100%;
+    }
 }
+

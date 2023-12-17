@@ -30,6 +30,7 @@
     color: grey;
     font-weight: 500;
     margin: 0px;
+    text-align: center;
 }
 
 .rightPlanUpper h1{
@@ -54,6 +55,12 @@
     }
     .onePlanHolder{
         max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .rightPlanUpper p{
+        width: 90%;
     }
 }
 

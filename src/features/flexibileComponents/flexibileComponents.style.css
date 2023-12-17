@@ -103,6 +103,14 @@
         align-items: center;
         gap: 50px;
     }
+    .flexibileComponentsLeftSide{
+        max-width: 800px;
+        justify-content: center;
+        align-items: center;
+    }
+    .flexibileComponentsLeftSide p{
+        text-align: center;
+    }
     .flexibileComponentsRightSide{
         padding: 20px 0px;
     }
@@ -120,6 +128,9 @@
     .flexibileComponentsLeftSide h1{
         text-align: center;
     }
+    .flexibileComponentsLeftSide p{
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -136,5 +147,8 @@
     .cardHolder{
         flex-direction: column;
         gap: 10px;
+    }
+    .cardHolderRightSide{
+        align-items: center;
     }
 }
