@@ -59,3 +59,15 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+    .forDesignerHolder{
+        margin: 20px auto;
+    }
+    .forDesignerMain{
+        padding: 0;
+    }
+    .forDesignerBackground{
+        padding: 20px 0;
+    }
+}

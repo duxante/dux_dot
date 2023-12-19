@@ -55,14 +55,25 @@
     }
     .onePlanHolder{
         max-width: 500px;
+        width: 80%;
     }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 600px) {
+    .rightPlanHolder{
+        margin: 20px auto;
+    }
+    .rightPlanMain{
+        gap: 30px;
+    }
+    .rightPlanUpper h1{
+        font-size: 34px;
+    }
     .rightPlanUpper p{
-        width: 90%;
+        width: 95%;
     }
 }
+
 
 
 

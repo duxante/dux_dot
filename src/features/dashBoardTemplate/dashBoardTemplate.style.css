@@ -79,8 +79,14 @@
 }
 
 @media screen and (max-width: 600px) {
+    .dashBoardTemplateHolder{
+        margin: 50px auto;
+    }
+    .leftDashboard h1{
+        font-size: 34px;
+    }
     .leftDashboard p{
         text-align: center;
-        width: 80%;
+        width: 95%;
     }   
 }

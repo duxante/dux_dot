@@ -34,4 +34,19 @@
     width: 100%;
 }
 
+@media screen and (max-width: 600px) {
+    .anyQuestionsHolder{
+        margin: 0px auto;
+    }
+    .anyQuestionsMain{
+        width: 90%;
+    }
+    .anyQuestionsMain h1{
+        font-size: 34px;
+    }
+    .anyQuestionsMain p{
+        width: 95%;
+    }
+}
+
 

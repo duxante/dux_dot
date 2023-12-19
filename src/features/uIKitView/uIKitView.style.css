@@ -50,7 +50,16 @@
     }
     .uIKitMain p{
         max-width: 400px;
-        width: 100%;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .uIKitHolder{
+        margin: 0px auto;
+    }
+    .uIKitMain h1{
+        font-size: 34px;
     }
 }
 

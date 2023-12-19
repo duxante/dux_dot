@@ -28,3 +28,9 @@
     color: grey;
     font-weight: 500;
 }
+
+@media screen and (max-width: 600px) {
+    .duxDotHolder{
+        margin-top: 50px;
+    }
+}

@@ -79,7 +79,9 @@
 }
 
 .planButton{
-    margin: 50px;
+    max-width: 300px;
+    width: 100%;
+    margin: 30px auto;
     padding: 15px;
 }
 
@@ -87,4 +89,10 @@
     content: "$";
     font-size: 22px;
     vertical-align: top;
+}
+
+@media screen and (max-width: 600px) {
+    .planButton{
+        max-width: 240px;
+    }
 }

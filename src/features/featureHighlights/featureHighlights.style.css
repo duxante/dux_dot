@@ -76,6 +76,18 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .featureHighlightsHolder{
+        margin: 0px auto;
+    }
+    .featureHighlightsLeftSide h1{
+        font-size: 34px;
+    }
+    .featureHighlightsLeftSide p{
+        width: 95%;
+    }
+}
+
 @media screen and (max-width:490px) {
     .featureHighlightsLeftSide p{
         width: 80%;
